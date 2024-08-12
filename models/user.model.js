@@ -27,7 +27,7 @@ const userSchema = new mongoose.Schema(
     deletedAt: { type: Date },
     addRoleBy: { type: String },
     updatedRoleAt: { type: Date },
-    verifyCode: {type: String, required:false,unique: true, minLength: 100, maxLength: 100,  },
+    verifyCode: {type: String, required:false, minLength: 100, maxLength: 100,  },
     verifyAt: { type: Date },
   },
   {
