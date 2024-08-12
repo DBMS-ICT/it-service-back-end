@@ -1,0 +1,8 @@
+node_modules
+
+test.js
+test.json
+uploads
+! uploads/users/defaultuser.png
+! uploads/items/default.jpg
+.env
